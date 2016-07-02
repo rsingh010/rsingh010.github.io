@@ -167,7 +167,7 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Career: 'timeline'
+  Career: 'Career'
   Resume: 'resume'
   Contact: 'contact'
 

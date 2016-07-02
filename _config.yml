@@ -14,7 +14,7 @@ url: "https://rsingh010.github.io"
 
 baseurl: /
 
-# Google tracking id to track your visitors
+# Google tracking id
 
 google-tracking-id: ""
 
@@ -22,17 +22,17 @@ google-tracking-id: ""
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: False
+force-https: True
 
 #############
 # HTML Head #
 #############
 
 lang: "en"
-author: "Rishabh Singh"
-title: "{ Rishabh Singh }"
-description: "Blog and website of Rishabh Singh, blogging mainly for finance. Opinions expressed are mine."
-keywords: "singh, rishabh"
+author: "John Smith"
+title: "{ John Smith }"
+description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 
 ################
@@ -56,9 +56,9 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
-  - text: "If you've failed, you've surely tried. If you've never tried, you've never lived"
+  - text: "Where’s your will to be weird?"
 
-me-img: "/img/rishabh.jpg"
+me-img: "/img/jetpacktocat.png"
 
 ##############################
 # Color the browser elements #
@@ -85,6 +85,8 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
+enable-gesture-navigation: True
+
 post-preview-words: 96
 
 paginate: 5
@@ -100,7 +102,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-
+disqus-shortname: "panossakkos"
 
 syntax-highlight: True
 
@@ -124,7 +126,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "s.rishabh010@gmail.com"
+email: "your@email.here"
 
 ################
 # Author Blurb #
@@ -134,7 +136,7 @@ email: "s.rishabh010@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Rishabh Singh is a MSc in Economics from BITS Pilani."
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -144,11 +146,14 @@ author_blurb_image: "/img/author.png"
 social:
   - title: "facebook"
     url: "https://facebook.com/rishgooner"
-  - title: "Linkedin"
-    url: "https://in.linkedin.com/in/rishabh-singh-89731732"
+  - title: "twitter"
+    url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/rsingh010/rsingh010.github.io"
-
+    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+  - title: "bitcoin"
+    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  - title: "rss"
+    url: "/feed.xml"
 
 ############
 # 404 page #
